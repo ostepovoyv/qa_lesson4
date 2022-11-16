@@ -5,7 +5,7 @@ public class Main {
     private static final byte byteType = 127;
     private static final short shortType = 32767;
     private static final int intType = 5;
-    private static final double doubleType = 2.5;
+    private static final double doubleType = 7.5;
     private static final long longType = 10000000;
     private static final float floatType = 9.5F;
     private static final char charType = 97;
@@ -45,6 +45,13 @@ public class Main {
         System.out.println(resultS);
 
         System.out.println("Вывод буквы (а) с использованием char: " + charType);
+
+        System.out.println("Сравнение");
+        if (intType > doubleType){
+            System.out.println("intType больше doubleType");
+        } else {
+            System.out.println("intType меньше doubleType");
+        }
     }
 
     private static void booleanTypeOperations(){
