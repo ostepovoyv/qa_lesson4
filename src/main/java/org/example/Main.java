@@ -9,7 +9,7 @@ public class Main {
     private static final long longType = 10000000;
     private static final float floatType = 9.5F;
     private static final char charType = 97;
-    private static final String StringType = "Результат выполнения операция с переменными разных типов данных";
+    private static final String stringType = "Результат выполнения операция с переменными разных типов данных";
     private static final boolean booleanType = true;
 
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class Main {
     }
 
     private static void operations(){
-        System.out.println(StringType);
+        System.out.println(stringType);
 
         System.out.println("Сложение intType + doubleType");
         var resultAddition = intType + doubleType;
